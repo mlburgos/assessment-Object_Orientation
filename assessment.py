@@ -89,13 +89,13 @@ class Question(object):
 #         self.questions = []
 
 #     def add_question(self, question, answer):
-#         """
+#         """Add questions to the assessment question bank.
 #         """
 
 #         self.questions.append(Question(question, answer))
 
 #     def administer(self):
-#         """
+#         """Produces a score between 0 and 1.
 #         """
 
 #         results = [1 if question.ask_and_evaluate() else 0 for question
